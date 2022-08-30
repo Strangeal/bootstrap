@@ -15,6 +15,7 @@ a {
 body {
   font-family: 'Poppins', sans-serif;
 }
+
 .navbar-brand {
   padding-left: 7rem;
   font-weight: bold;
@@ -31,12 +32,52 @@ body {
 
 /* main page */
 .main-page {
-    padding: 12rem 0;
-    background-color: gray;
-    
+  padding: 12rem 0;
+  background-color: gray;
 }
 
 .text-1 {
-    font-weight: 700;
-    font-size: 48px;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+/* works */
+.works {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 120px;
+  padding: 120px 180px;
+}
+
+.card-img-left,
+.card-img-right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #fff;
+  border-radius: 16px;
+}
+
+.card-body .tags {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+  margin: 14px 0 20px 0;
+  padding: 1rem 0;
+}
+
+.tags li {
+  padding: 4px 12px;
+  background: #ebebff;
+  border-radius: 8px;
+  color: #3a4bea;
+}
+
+.client-info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  font-size: 1rem;
+  padding: 1rem 0;
 }
