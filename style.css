@@ -81,3 +81,26 @@ body {
   font-size: 1rem;
   padding: 1rem 0;
 }
+
+
+/* About me */
+.col-md-5 h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.hr {
+  margin: 20px 0;
+}
+
+.hr1 {
+  border-bottom: 1px solid gray;
+}
+.hr2 {
+  border-bottom: 1px solid gray;
+}
+.lang li{
+  background-color: #F7F7F9;
+  padding: 10px 20px;
+}
