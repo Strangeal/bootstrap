@@ -82,7 +82,6 @@ body {
   padding: 1rem 0;
 }
 
-
 /* About me */
 .col-md-5 h2 {
   font-weight: 700;
@@ -97,10 +96,55 @@ body {
 .hr1 {
   border-bottom: 1px solid gray;
 }
+
 .hr2 {
   border-bottom: 1px solid gray;
 }
-.lang li{
-  background-color: #F7F7F9;
+
+.lang li {
+  background-color: #f7f7f9;
   padding: 10px 20px;
+}
+
+.contact-me {
+  background: #6070ff;
+  border-top-left-radius: 80px;
+  padding-bottom: 20px;
+}
+
+.contact-container {
+  padding: 100px 0 0 0;
+}
+
+.lg-text-4 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: bolder;
+  line-height: 48px;
+  letter-spacing: 0.37px;
+  margin: 0 20px 10px 20px;
+  text-align: center;
+}
+
+.sm-text-3 {
+  font-weight: 300;
+  font-size: 24px;
+  text-align: center;
+  color: #ebebff;
+  margin: 0 320px 40px 320px;
+}
+
+.form {
+  display: flex;
+  margin: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bg-image-2 {
+  background-image: url("./assets/contact-form-background-shapes.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 1px solid transparent;
 }
