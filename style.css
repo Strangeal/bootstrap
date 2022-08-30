@@ -33,7 +33,10 @@ body {
 /* main page */
 .main-page {
   padding: 12rem 0;
-  background-color: gray;
+  background-image: url("./assets/Header-bg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .text-1 {
