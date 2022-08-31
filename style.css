@@ -14,7 +14,7 @@ a {
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: #E5E5E5;
+  background: #e5e5e5;
 }
 
 .navbar-brand {
@@ -131,7 +131,7 @@ body {
 }
 
 .form-input {
-  background-color:#6070ff;
+  background-color: #6070ff;
   padding: 5rem 27rem;
   background-image: url("./assets/contact-form-background-shapes.svg");
   background-position: center;
