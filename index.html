@@ -96,7 +96,58 @@
               <li>css</li>
               <li>javascript</li>
             </ul>
-            <a href="#" class="btn btn-primary">See Project</a>
+            <!-- See details trigger button -->
+            <a type="button" href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              See Project
+            </a>
+            <!-- See details for Card 1 -->
+              <div class="modal modal-xl fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header border-bottom-0 pb-0">
+                      <h5 class="modal-title" id="exampleModalLabel">Tonic</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="client-info d-flex mt-2">
+                          <h6 class="text-muted mb-0 ms-3">Canopy</h6>
+                          <a href="#"><img src="./assets/Counter.svg" alt="counter" class="ms-3"/></a>
+                          <h6 class="text-muted mb-0 mx-1 d-flex flex-row align-items-center">Back End Dev</h6>
+                          <a href="#"><img src="./assets/Counter.svg" alt="counter" class="ms-3"/></a>
+                          <h6 class="text-muted mb-0 mx-1 d-flex flex-row align-items-center">2015</h6>
+                    </div>
+                    <div class="modal-body">
+                        <img src="./assets/details.png" class="img-fluid mt-2" alt="">
+                        <div class="container-fluid">
+                            <div class="row my-5">
+                                <div class="col-md-9">
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <span class="badge rounded-pill">html</span>
+                                    <span class="badge rounded-pill">css</span>
+                                    <span class="badge rounded-pill">javaScript</span>
+                                    <span class="badge rounded-pill">github</span>
+                                    <span class="badge rounded-pill">ruby</span>
+                                    <span class="badge rounded-pill">Bootstrap</span>
+                                    <hr>
+                                    <a class="btn btn-de" href="#">See live
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M2 9C2 5.13401 5.13401 2 9 2C9.55229 2 10 1.55228 10 1C10 0.447715 9.55229 0 9 0C4.02944 0 0 4.02944 0 9C0 13.9706 4.02944 18 9 18C13.9706 18 18 13.9706 18 9C18 8.44772 17.5523 8 17 8C16.4477 8 16 8.44772 16 9C16 12.866 12.866 16 9 16C5.13401 16 2 12.866 2 9ZM13 0C12.4477 0 12 0.447715 12 1C12 1.55228 12.4477 2 13 2H14.5858L8.29289 8.29289C7.90237 8.68342 7.90237 9.31658 8.29289 9.70711C8.68342 10.0976 9.31658 10.0976 9.70711 9.70711L16 3.41421V5C16 5.55228 16.4477 6 17 6C17.5523 6 18 5.55228 18 5V1C18 0.447715 17.5523 0 17 0H13Z" fill="#6070FF"/>
+                                        </svg>
+                                    </a>
+                                    <a class="btn btn-de" href="#">See source
+                                        <svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M17.9989 7.46114C17.9989 6.32124 17.6329 5.25043 16.9342 4.31779C17.2004 3.41969 17.2669 2.27979 17.2004 0.967185C17.1671 0.414508 16.7345 0 16.2022 0C15.9028 0 13.3741 0.0345423 11.9101 1.38169C10.6458 1.1399 9.31495 1.1399 8.01736 1.38169C6.58667 0.0345423 4.05802 0 3.7253 0C3.19296 0 2.76042 0.414508 2.72715 0.967185C2.62734 2.27979 2.72715 3.41969 2.99333 4.31779C2.29462 5.28497 1.92863 6.35579 1.92863 7.46114C1.92863 9.8791 3.7253 12.0553 6.45358 13.0915C6.35377 13.2988 6.28723 13.5406 6.22068 13.7824C3.32604 13.4715 1.9619 10.7427 1.89536 10.639C1.66246 10.1209 1.06357 9.91364 0.56449 10.19C0.0654144 10.4318 -0.134216 11.0535 0.131958 11.5717C0.198501 11.7444 2.02845 15.4404 6.05432 15.8549V18.9637C6.05432 19.5509 6.48686 20 7.05248 20H12.875C13.4406 20 13.8732 19.5509 13.8732 18.9637V14.8532C13.8732 14.2314 13.7401 13.6442 13.5072 13.1261C16.2022 12.0553 17.9989 9.91364 17.9989 7.46114Z" fill="#6070FF"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <!-- Card 2 -->
@@ -118,9 +169,61 @@
               <li>css</li>
               <li>javascript</li>
             </ul>
-            <div class="ps-4">
-              <a href="#" class="btn btn-primary">See Project</a>
+             <!-- See details trigger button -->
+             <a type="button" href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              See Project
+            </a>
+
+            <!-- See details for Card 2 -->
+              <div class="modal modal-xl fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header border-bottom-0 pb-0">
+                      <h5 class="modal-title" id="exampleModalLabel">Tonic</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="client-info d-flex mt-2">
+                          <h6 class="text-muted mb-0 ms-3">Canopy</h6>
+                          <a href="#"><img src="./assets/Counter.svg" alt="counter" class="ms-3"/></a>
+                          <h6 class="text-muted mb-0 mx-1 d-flex flex-row align-items-center">Back End Dev</h6>
+                          <a href="#"><img src="./assets/Counter.svg" alt="counter" class="ms-3"/></a>
+                          <h6 class="text-muted mb-0 mx-1 d-flex flex-row align-items-center">2015</h6>
+                    </div>
+                    <div class="modal-body">
+                        <img src="./assets/post.svg" class="img-fluid mt-2" alt="">
+                        <div class="container-fluid">
+                            <div class="row my-5">
+                                <div class="col-md-9">
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <span class="badge rounded-pill">html</span>
+                                    <span class="badge rounded-pill">css</span>
+                                    <span class="badge rounded-pill">javaScript</span>
+                                    <span class="badge rounded-pill">github</span>
+                                    <span class="badge rounded-pill">ruby</span>
+                                    <span class="badge rounded-pill">Bootstrap</span>
+                                    <hr>
+                                    <a class="btn btn-de" href="#">See live
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M2 9C2 5.13401 5.13401 2 9 2C9.55229 2 10 1.55228 10 1C10 0.447715 9.55229 0 9 0C4.02944 0 0 4.02944 0 9C0 13.9706 4.02944 18 9 18C13.9706 18 18 13.9706 18 9C18 8.44772 17.5523 8 17 8C16.4477 8 16 8.44772 16 9C16 12.866 12.866 16 9 16C5.13401 16 2 12.866 2 9ZM13 0C12.4477 0 12 0.447715 12 1C12 1.55228 12.4477 2 13 2H14.5858L8.29289 8.29289C7.90237 8.68342 7.90237 9.31658 8.29289 9.70711C8.68342 10.0976 9.31658 10.0976 9.70711 9.70711L16 3.41421V5C16 5.55228 16.4477 6 17 6C17.5523 6 18 5.55228 18 5V1C18 0.447715 17.5523 0 17 0H13Z" fill="#6070FF"/>
+                                        </svg>
+                                    </a>
+                                    <a class="btn btn-de" href="#">See source
+                                        <svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M17.9989 7.46114C17.9989 6.32124 17.6329 5.25043 16.9342 4.31779C17.2004 3.41969 17.2669 2.27979 17.2004 0.967185C17.1671 0.414508 16.7345 0 16.2022 0C15.9028 0 13.3741 0.0345423 11.9101 1.38169C10.6458 1.1399 9.31495 1.1399 8.01736 1.38169C6.58667 0.0345423 4.05802 0 3.7253 0C3.19296 0 2.76042 0.414508 2.72715 0.967185C2.62734 2.27979 2.72715 3.41969 2.99333 4.31779C2.29462 5.28497 1.92863 6.35579 1.92863 7.46114C1.92863 9.8791 3.7253 12.0553 6.45358 13.0915C6.35377 13.2988 6.28723 13.5406 6.22068 13.7824C3.32604 13.4715 1.9619 10.7427 1.89536 10.639C1.66246 10.1209 1.06357 9.91364 0.56449 10.19C0.0654144 10.4318 -0.134216 11.0535 0.131958 11.5717C0.198501 11.7444 2.02845 15.4404 6.05432 15.8549V18.9637C6.05432 19.5509 6.48686 20 7.05248 20H12.875C13.4406 20 13.8732 19.5509 13.8732 18.9637V14.8532C13.8732 14.2314 13.7401 13.6442 13.5072 13.1261C16.2022 12.0553 17.9989 9.91364 17.9989 7.46114Z" fill="#6070FF"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
+        </div>
           </div>
         </div>
         <!-- Card 3 -->
@@ -142,7 +245,60 @@
               <li>css</li>
               <li>javascript</li>
             </ul>
-            <a href="#" class="btn btn-primary">See Project</a>
+            <!-- See details trigger button -->
+             <a type="button" href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              See Project
+            </a>
+            <!-- See details for Card 2 -->
+              <div class="modal modal-xl fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header border-bottom-0 pb-0">
+                      <h5 class="modal-title" id="exampleModalLabel">Tonic</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="client-info d-flex mt-2">
+                          <h6 class="text-muted mb-0 ms-3">Canopy</h6>
+                          <a href="#"><img src="./assets/Counter.svg" alt="counter" class="ms-3"/></a>
+                          <h6 class="text-muted mb-0 mx-1 d-flex flex-row align-items-center">Back End Dev</h6>
+                          <a href="#"><img src="./assets/Counter.svg" alt="counter" class="ms-3"/></a>
+                          <h6 class="text-muted mb-0 mx-1 d-flex flex-row align-items-center">2015</h6>
+                    </div>
+                    <div class="modal-body">
+                        <img src="./assets/post.svg" class="img-fluid mt-2" alt="">
+                        <div class="container-fluid">
+                            <div class="row my-5">
+                                <div class="col-md-9">
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <span class="badge rounded-pill">html</span>
+                                    <span class="badge rounded-pill">css</span>
+                                    <span class="badge rounded-pill">javaScript</span>
+                                    <span class="badge rounded-pill">github</span>
+                                    <span class="badge rounded-pill">ruby</span>
+                                    <span class="badge rounded-pill">Bootstrap</span>
+                                    <hr>
+                                    <a class="btn btn-de" href="#">See live
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M2 9C2 5.13401 5.13401 2 9 2C9.55229 2 10 1.55228 10 1C10 0.447715 9.55229 0 9 0C4.02944 0 0 4.02944 0 9C0 13.9706 4.02944 18 9 18C13.9706 18 18 13.9706 18 9C18 8.44772 17.5523 8 17 8C16.4477 8 16 8.44772 16 9C16 12.866 12.866 16 9 16C5.13401 16 2 12.866 2 9ZM13 0C12.4477 0 12 0.447715 12 1C12 1.55228 12.4477 2 13 2H14.5858L8.29289 8.29289C7.90237 8.68342 7.90237 9.31658 8.29289 9.70711C8.68342 10.0976 9.31658 10.0976 9.70711 9.70711L16 3.41421V5C16 5.55228 16.4477 6 17 6C17.5523 6 18 5.55228 18 5V1C18 0.447715 17.5523 0 17 0H13Z" fill="#6070FF"/>
+                                        </svg>
+                                    </a>
+                                    <a class="btn btn-de" href="#">See source
+                                        <svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M17.9989 7.46114C17.9989 6.32124 17.6329 5.25043 16.9342 4.31779C17.2004 3.41969 17.2669 2.27979 17.2004 0.967185C17.1671 0.414508 16.7345 0 16.2022 0C15.9028 0 13.3741 0.0345423 11.9101 1.38169C10.6458 1.1399 9.31495 1.1399 8.01736 1.38169C6.58667 0.0345423 4.05802 0 3.7253 0C3.19296 0 2.76042 0.414508 2.72715 0.967185C2.62734 2.27979 2.72715 3.41969 2.99333 4.31779C2.29462 5.28497 1.92863 6.35579 1.92863 7.46114C1.92863 9.8791 3.7253 12.0553 6.45358 13.0915C6.35377 13.2988 6.28723 13.5406 6.22068 13.7824C3.32604 13.4715 1.9619 10.7427 1.89536 10.639C1.66246 10.1209 1.06357 9.91364 0.56449 10.19C0.0654144 10.4318 -0.134216 11.0535 0.131958 11.5717C0.198501 11.7444 2.02845 15.4404 6.05432 15.8549V18.9637C6.05432 19.5509 6.48686 20 7.05248 20H12.875C13.4406 20 13.8732 19.5509 13.8732 18.9637V14.8532C13.8732 14.2314 13.7401 13.6442 13.5072 13.1261C16.2022 12.0553 17.9989 9.91364 17.9989 7.46114Z" fill="#6070FF"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
           </div>
         </div>
         <!-- Card 4 -->
@@ -164,15 +320,66 @@
               <li>css</li>
               <li>javascript</li>
             </ul>
-            <div class="ps-4">
-              <a href="#" class="btn btn-primary">See Project</a>
+            <!-- See details trigger button -->
+            <a type="button" href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              See Project
+            </a>
+            <!-- See details for Card 2 -->
+              <div class="modal modal-xl fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header border-bottom-0 pb-0">
+                      <h5 class="modal-title" id="exampleModalLabel">Tonic</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="client-info d-flex mt-2">
+                          <h6 class="text-muted mb-0 ms-3">Canopy</h6>
+                          <a href="#"><img src="./assets/Counter.svg" alt="counter" class="ms-3"/></a>
+                          <h6 class="text-muted mb-0 mx-1 d-flex flex-row align-items-center">Back End Dev</h6>
+                          <a href="#"><img src="./assets/Counter.svg" alt="counter" class="ms-3"/></a>
+                          <h6 class="text-muted mb-0 mx-1 d-flex flex-row align-items-center">2015</h6>
+                    </div>
+                    <div class="modal-body">
+                        <img src="./assets/post.svg" class="img-fluid mt-2" alt="">
+                        <div class="container-fluid">
+                            <div class="row my-5">
+                                <div class="col-md-9">
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <span class="badge rounded-pill">html</span>
+                                    <span class="badge rounded-pill">css</span>
+                                    <span class="badge rounded-pill">javaScript</span>
+                                    <span class="badge rounded-pill">github</span>
+                                    <span class="badge rounded-pill">ruby</span>
+                                    <span class="badge rounded-pill">Bootstrap</span>
+                                    <hr>
+                                    <a class="btn btn-de" href="#">See live
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M2 9C2 5.13401 5.13401 2 9 2C9.55229 2 10 1.55228 10 1C10 0.447715 9.55229 0 9 0C4.02944 0 0 4.02944 0 9C0 13.9706 4.02944 18 9 18C13.9706 18 18 13.9706 18 9C18 8.44772 17.5523 8 17 8C16.4477 8 16 8.44772 16 9C16 12.866 12.866 16 9 16C5.13401 16 2 12.866 2 9ZM13 0C12.4477 0 12 0.447715 12 1C12 1.55228 12.4477 2 13 2H14.5858L8.29289 8.29289C7.90237 8.68342 7.90237 9.31658 8.29289 9.70711C8.68342 10.0976 9.31658 10.0976 9.70711 9.70711L16 3.41421V5C16 5.55228 16.4477 6 17 6C17.5523 6 18 5.55228 18 5V1C18 0.447715 17.5523 0 17 0H13Z" fill="#6070FF"/>
+                                        </svg>
+                                    </a>
+                                    <a class="btn btn-de" href="#">See source
+                                        <svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M17.9989 7.46114C17.9989 6.32124 17.6329 5.25043 16.9342 4.31779C17.2004 3.41969 17.2669 2.27979 17.2004 0.967185C17.1671 0.414508 16.7345 0 16.2022 0C15.9028 0 13.3741 0.0345423 11.9101 1.38169C10.6458 1.1399 9.31495 1.1399 8.01736 1.38169C6.58667 0.0345423 4.05802 0 3.7253 0C3.19296 0 2.76042 0.414508 2.72715 0.967185C2.62734 2.27979 2.72715 3.41969 2.99333 4.31779C2.29462 5.28497 1.92863 6.35579 1.92863 7.46114C1.92863 9.8791 3.7253 12.0553 6.45358 13.0915C6.35377 13.2988 6.28723 13.5406 6.22068 13.7824C3.32604 13.4715 1.9619 10.7427 1.89536 10.639C1.66246 10.1209 1.06357 9.91364 0.56449 10.19C0.0654144 10.4318 -0.134216 11.0535 0.131958 11.5717C0.198501 11.7444 2.02845 15.4404 6.05432 15.8549V18.9637C6.05432 19.5509 6.48686 20 7.05248 20H12.875C13.4406 20 13.8732 19.5509 13.8732 18.9637V14.8532C13.8732 14.2314 13.7401 13.6442 13.5072 13.1261C16.2022 12.0553 17.9989 9.91364 17.9989 7.46114Z" fill="#6070FF"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+          </div>
+        </div>
       </section> 
-        
+      <!-- About me -->
         <section>
-            <div class="about-child container">
+            <div class="about-child bg-white">
                 <div class="row">
                     <div class="col-md-5">
                         <h2 class="w-25">About Myself</h2>
@@ -242,32 +449,21 @@
             </div>
         </section>
         <!-- Contact me -->
-        <section class="bg-color-1 white">
-          <div class="contact-me">
-            <div class="bg-image-2">
-              <div class="contact-container">
-                <h2 class="lg-text-4">Contact me</h2>
-                <p class="sm-text-3">
-                  If you have an application you are interested in developing, a feature that you need built or a project that needs coding.
-                  I’d love to help with it
-                </p>
-                <form action="https://formspree.io/f/myyvzkjz" method="POST" class="form">
-                  <div class="mb-3">
-                    <label for="fullname" class="form-label"></label>
-                    <input type="text" class="form-control" id="fullname" placeholder="Full name" required maxlength="30" />
-                  </div>
-                  <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label"></label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="name@domain.com" required />
-                  </div>
-                  <div class="mb-3">
-                    <textarea rows="5" cols="30" id="feedback" name="feedback" placeholder="Write your message here" required maxlength="500"></textarea>
-                  </div>
-                  <button type="submit" class="btn btn-light">Get in Touch</button>
-                </form>
-              </div>
+        <section>
+          <form action="https://formspree.io/f/myyvzkjz" method="POST" class="form-input">
+            <h2 class="text-center text-light">Contact me</h2>
+            <p class="text-center text-light">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it.</p>
+            <div class="mb-3">
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name" maxlength="30">
             </div>
-          </div>
+            <div class="mb-3">
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control" id="exampleFormControlTextarea1" cols="30" rows="10" maxlength="500"></textarea>
+            </div>
+            <button class="btn bg-light text-center" type="submit">Get in touch</button>
+          </form>
         </section>
     </main>
 </body>
